@@ -18,6 +18,7 @@ function btn() {
     BlockBox.innerHTML = "";
     mother.innerHTML=""
     sr.style.display = 'block';
+    document.getElementById('details').style.display='none';
 }
 
 function Recipe(drinks) {
