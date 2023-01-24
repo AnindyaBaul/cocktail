@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="d-flex">
+        <!-- place navbar here -->
+        <nav class="d-flex cont">
+            <div class="nav-left w-50"><img onclick="home()" src="./images/logo.png" alt=""></div>
+            <div class="nav-right w-50 d-flex justify-content-end gap-5 align-items-center">
+                <a href="">Home</a>
+                <a href="">API</a>
+                <a href="">Forum</a>
+
+                <input type="text" placeholder="Search">
+
+            </div>
+        </nav>
+    </header>
+    <section id="BlockBox">
+
+        <main class="cont d-flex">
+            <div class="glass"><img src="./images/cocktail_left.png" alt=""></div>
+            <div class="text-center text-cont">
+                <h1>Welcome to TheCocktailDB</h1>
+                <p>An open, crowd-sourced database of drinks and cocktails from around the world.
+                    We also offer a <span class="text-secondary">free JSON API</span> for anyone wanting to use it.
+                    If you like the site, please consider supporting us on Patreon by clicking the link below...</p>
+                <img class="patreon" src="./images/patreon_logo.png" alt="">
+                <p class="text-secondary">Click to Support: Currently 359 supporters</p>
+            </div>
+            <div class="glass"><img src="./images/cocktail_right.png" alt=""></div>
+        </main>
+        <section class="searchArea cont d-flex justify-content-center align-items-center">
+            <input id="InputBox" placeholder="Search Your Drink" type="text">
+            <button onclick="btn()" class="">Search</button>
+        </section>
+
+    </section>
+
+    <section id="default-drinks">
+
+    </section>
+
+    <section id="mother-cont" class="cont">
+        <h1 id="sr">Search Results</h1>
+        <div id="mother" class="row row-cols-4">
+
+        </div>
+    </section>
+
+    <section id="details" class="cont text-light">
+        <button onclick="home()" class="btn btn-warning mb-5">Go Back</button>
+        <div class="d-flex">
+            <div id="ingredientThumb"></div>
+            <div id="ingredientsDetails">
+                <ol id="ListIngredient">
+
+                    
+                </ol>
+                <p id="instructions"></p>
+            </div>
+        </div>
+        <div id="recipeDetails"></div>
+    </section>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

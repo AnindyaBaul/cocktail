@@ -1,0 +1,92 @@
+body{
+    background-color:#230312 ;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #1D000D;
+    height: 70px;
+}
+.cont{
+    width: 60%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+nav input{
+    border-radius: 10px;
+    border: 0;
+    padding-left:10px ;
+}
+main{
+    color: white;
+    margin-top: 50px!important;
+}
+.text-cont{
+    width: 100%;
+}
+.text-cont p{
+    width: 80%;
+    margin: auto;
+}
+.glass img{
+    width: 220px;
+}
+.patreon{
+    width: 200px;
+}
+.searchArea{
+    margin-top: 30px;
+    height: 100px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.searchArea input{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 12px 0 0 12px;
+    padding-left: 15px;
+}
+.searchArea input:focus{
+    outline: 0;
+}
+.searchArea button{
+    height: 40px;
+    background-color: white;
+    border: 0;
+    border-left: 1px solid lightgray;
+    border-radius: 0 12px 12px 0;
+}
+#sr{
+    color: white;
+    text-align: center;
+    display: none;
+    margin-top: 100px;
+}
+
+#ingredientThumb{
+    height: 300px;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+#ingredientsDetails{
+    min-height: 300px;
+    width: 60%;
+    /* border: 1px solid green; */
+    /* padding-left: 20px; */
+}
+
+#instructions{
+    padding-left: 15px;
+}
+#details{
+    display: none;
+    padding-top: 50px;
+}
+.btn.btn-warning{
+    border-radius: 50px 0 0 50px;
+}
